@@ -14,6 +14,7 @@ extension Text {
     func homeTextStyle() -> some View {
         self.font(.headline)
             .fontWeight(.heavy)
+            .foregroundColor(.secondary)
     }
     
     func headTextStyle() -> some View {
